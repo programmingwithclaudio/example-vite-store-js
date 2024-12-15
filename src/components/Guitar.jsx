@@ -1,6 +1,3 @@
-import React, { useEffect } from 'react'
-import { useState } from 'react'
-
 function Guitar({guitar, addToCart}) {
     // State
     const {id, name, image, description, price} = guitar
